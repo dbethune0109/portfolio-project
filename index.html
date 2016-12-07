@@ -7,7 +7,7 @@
   <title>Project</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300">
   <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
@@ -37,77 +37,79 @@
         <h2 class="text-muted">Featured Work</h2>
       </div>
     </div>
+    <!-- wildlife -->
     <div class="row text-center">
       <div class="col-md-4">
         <img class="img-responsive" src="images/wildlife.png" data-toggle="modal" data-target="#project1">
         <h3 class="text-uppercase">Wildlife Tracker</h3>
         <p>https://github.com/dbethune0109/wildlife</p>
       </div>
-        <div class="col-md-4">
-          <img class="img-responsive" src="images/movie.jpg" data-toggle="modal" data-target="#project2">
-          <h3 class="text-uppercase">Movies</h3>
-          <p>https://github.com/dbethune0109/movies</p>
-        </div>
-
+      <!-- movie -->
+      <div class="col-md-4">
+        <img class="img-responsive" src="images/movie.jpg" data-toggle="modal" data-target="#project2">
+        <h3 class="text-uppercase">Movies</h3>
+        <p>https://github.com/dbethune0109/movies</p>
+      </div>
+      <!-- cd -->
       <div class="row">
         <div class="col-md-4">
-          <img class="img-responsive" src="images/cd.jpg" data-toggle="modal" data-target="#project2">
+          <img class="img-responsive" src="images/cd.jpg" data-toggle="modal" data-target="#project3">
           <h3 class="text-uppercase">CD Tracker</h3>
           <p>https://github.com/dbethune0109/cds</p>
         </div>
       </div>
     </div>
   </div>
-  <!-- Modal -->
-   <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-       <div class="modal-dialog">
-           <div class="modal-content">
-               <div class="modal-header">
-                   <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
-               </div>
-               <div class="modal-body">
-                   <img class="img-responsive" src="images/wildlife.png">
-                   This was my first project in this class. I learned a lot about HTML and CSS.
-               </div>
-               <div class="modal-footer">
-                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-               </div>
-           </div>
-       </div>
-   </div>
-   <!-- Modal -->
-   <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-       <div class="modal-dialog">
-           <div class="modal-content">
-               <div class="modal-header">
-                   <h4 class="modal-title" id="myModalLabel2">Favorite App Page</h4>
-               </div>
-               <div class="modal-body">
-                   <img class="img-responsive" src="images/movie.jpg">
-                   This was my first project in this class. I learned a lot about HTML and CSS.
-               </div>
-               <div class="modal-footer">
-                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-               </div>
-           </div>
-       </div>
-   </div>
-   <!-- Modal -->
-   <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-       <div class="modal-dialog">
-           <div class="modal-content">
-               <div class="modal-header">
-                   <h4 class="modal-title" id="myModalLabel3">Favorite App Page</h4>
-               </div>
-               <div class="modal-body">
-                   <img class="img-responsive" src="images/cd.jpg">
-                   This was my first project in this class. I learned a lot about HTML and CSS.
-               </div>
-               <div class="modal-footer">
-                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-               </div>
-           </div>
-       </div>
-   </div>
+  <!-- Modal -->wildlife
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Wildlife Tracker</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="images/wildlife.png">
+          This was a project from Java class at Epicodus. Ability to enter a rangers name. Animal sighting and whether it was endangered animal.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->movie
+  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel2">Movie website</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="images/movie.jpg">
+          This was my first project at Udacity, Class in Python. Movie trailer site.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->cd
+  <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel3">Cd Tracker</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="images/cd.jpg">
+          Java class project at Epicodus. Enter a cd , artist and track, edit and delete.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
