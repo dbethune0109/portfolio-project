@@ -17,3 +17,6 @@ body {
   border-color: #02b3e4;
   border-width: 10px;
 }
+.wildlife, .movie, .cd {
+  font-style: italic;
+}
